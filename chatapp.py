@@ -15,11 +15,7 @@ st.set_page_config(
 
 # Sidebar to input Google API Key
 st.sidebar.title("NUTRI SUGGEST")
-GOOGLE_API_KEY = "AIzaSyBe96Rj7qqDG2Hf49EqTx-62ZUfuU39Zws"
-
-# Guide for obtaining Google API Key if not available
-
-
+GOOGLE_API_KEY = "Your_API_key"
 
 # Check if API key is provided
 if not GOOGLE_API_KEY:
