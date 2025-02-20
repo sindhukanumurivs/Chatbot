@@ -19,7 +19,7 @@ GOOGLE_API_KEY = "Your_API_key"
 
 # Check if API key is provided
 if not GOOGLE_API_KEY:
-    st.error("AIzaSyBe96Rj7qqDG2Hf49EqTx-62ZUfuU39Zws")
+    st.error("no api key")
     st.stop()
 
 # Set up Google Gemini-Pro AI model
